@@ -2,9 +2,9 @@
 int main()
 {
 	int a=1;
-	int b=1;
-	++a;
+	int b=a++;
+	int c=++a;
 	b++;
 	printf("%d",a);
-	printf("\n%d",b);
+	printf("\n%d",c);
 }
